@@ -1,0 +1,21 @@
+# AI Career Guidance System
+
+This project recommends a career based on user skills.
+
+## Features
+- User enters skills
+- Backend analyzes skills
+- Best career is recommended
+- Missing skills are shown
+
+## Tech Stack
+- Python
+- FastAPI
+- Pandas
+- HTML, CSS, JavaScript
+
+## How to Run
+1. Activate virtual environment
+2. Run backend:
+   uvicorn main:app --reload
+3. Open frontend/index.html in browser
