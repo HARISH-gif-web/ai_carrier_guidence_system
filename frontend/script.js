@@ -8,7 +8,7 @@ async function getCareer() {
 
     try {
         const response = await fetch(
-            "https://YOUR-RAILWAY-DOMAIN.up.railway.app/recommend",
+            "https://ai_carrier_guidance_system.up.railway.app/recommend",
             {
                 method: "POST",
                 headers: {
@@ -23,10 +23,10 @@ async function getCareer() {
         const data = await response.json();
 
         document.getElementById("result").innerHTML =
-            "✅ Recommended Career: <br>" + data.recommended_career;
+            "Recommended Career: " + data.recommended_career;
 
     } catch (error) {
         document.getElementById("result").innerHTML =
-            "❌ Error connecting to backend";
+            "Error connecting to backend";
     }
 }
