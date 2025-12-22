@@ -8,7 +8,7 @@ async function getCareer() {
 
     try {
         const response = await fetch(
-            "https://ai_carrier_guidance_system.up.railway.app/recommend",
+            "https://YOUR_RAILWAY_LINK/recommend",
             {
                 method: "POST",
                 headers: {
