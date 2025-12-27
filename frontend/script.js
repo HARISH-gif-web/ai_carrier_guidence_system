@@ -27,6 +27,6 @@ async function getCareer() {
 
     } catch (error) {
         document.getElementById("result").innerHTML =
-            "Error connecting to backend";
+            "Backend error";
     }
 }
