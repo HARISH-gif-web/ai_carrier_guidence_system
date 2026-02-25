@@ -1,21 +1,21 @@
 async function getCareer() {
-    const skills = document.getElementById("skillsInput").value;
+    const skillsInput = document.getElementById("skillsInput").value;
 
-    if (!skills) {
+    if (!skillsInput) {
         alert("Please enter skills");
         return;
     }
 
     try {
         const response = await fetch(
-            "https://YOUR_RAILWAY_LINK/recommend",
+            "http://127.0.0.1:8000/recommend",
             {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
-                    user_skills: skills
+                    skills: skillsInput.split(",")
                 })
             }
         );
