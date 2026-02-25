@@ -1,6 +1,11 @@
-role,skills
-AI Engineer,"Python,Machine Learning,Deep Learning,NLP,Git"
-ML Engineer,"Python,Machine Learning,Mathematics,Model Deployment"
-Data Scientist,"Python,SQL,Statistics,Data Visualization"
-Web Developer,"HTML,CSS,JavaScript,React"
-Cyber Security Analyst,"Networking,Linux,Security,Python"
+role,skills,salary_range,difficulty,description,tasks
+AI Engineer,"Python,Machine Learning,Deep Learning,NLP,Git","120k-180k",Advanced,"Develop AI/ML models","1. Build neural networks|2. Optimize ML models|3. Deploy models to production|4. Conduct research on new algorithms"
+ML Engineer,"Python,Machine Learning,Mathematics,Model Deployment","110k-170k",Advanced,"Create machine learning solutions","1. Design ML pipelines|2. Handle data preprocessing|3. Implement model optimization|4. Monitor model performance"
+Data Scientist,"Python,SQL,Statistics,Data Visualization","100k-160k",Intermediate,"Analyze and interpret data","1. Perform data analysis|2. Create visualizations|3. Build predictive models|4. Present insights to stakeholders"
+Web Developer,"HTML,CSS,JavaScript,React","90k-150k",Intermediate,"Build web applications","1. Design responsive UI|2. Implement frontend features|3. Optimize performance|4. Test and debug code"
+Cloud Architect,"AWS,Azure,Docker,Kubernetes,Linux","130k-190k",Advanced,"Design cloud infrastructure","1. Design scalable solutions|2. Implement CI/CD pipelines|3. Manage cloud resources|4. Ensure security compliance"
+Cyber Security Analyst,"Networking,Linux,Security,Python","100k-160k",Intermediate,"Protect systems from threats","1. Conduct security audits|2. Implement firewalls|3. Monitor for threats|4. Respond to incidents"
+Full Stack Developer,"JavaScript,React,Node.js,SQL,MongoDB","95k-155k",Intermediate,"Build complete applications","1. Develop frontend interfaces|2. Build backend APIs|3. Design databases|4. Deploy applications"
+DevOps Engineer,"Docker,Kubernetes,CI/CD,Linux,AWS","110k-170k",Advanced,"Automate deployment processes","1. Set up CI/CD pipelines|2. Manage containerization|3. Monitor infrastructure|4. Optimize performance"
+Database Administrator,"SQL,Database Design,Performance Tuning,Linux","100k-160k",Intermediate,"Manage and optimize databases","1. Design database schemas|2. Optimize queries|3. Backup and recovery|4. Ensure data security"
+Product Manager,"Communication,Leadership,Business Acumen,Analytics","110k-180k",Intermediate,"Lead product development","1. Gather requirements|2. Define roadmap|3. Analyze user feedback|4. Drive product vision"
